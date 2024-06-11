@@ -1,7 +1,8 @@
-[This project is a WIP]
 # Game of Life
 
 This is a simple version of the Game of Life, an implementation of the classic cellular automaton!
+
+![animation_result](./src/img/animation_result.gif)
 
 ## Why Notebooks Were Used
 
