@@ -1,8 +1,12 @@
 # Game of Life
 
-This is a simple version of the Game of Life, an implementation of the classic cellular automaton!
+This is a simple version of the Game of Life.
 
 ![animation_result](./src/img/animation_result.gif)
+
+### What Is The Game Of Life?
+
+It is an application of the classic cellular automaton, played on an infinite two-dimensional rectangular grid of cells. See the [what_is_it](./src/what_is_it.ipynb) file for better comprehension.
 
 ## Why Notebooks Were Used
 
@@ -18,4 +22,4 @@ snoozleEmily
 
 ## License
 
-This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [License](./LICENSE) file for details.
