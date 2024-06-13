@@ -1,28 +1,30 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-dead = 0
-alive = 1
+DEAD = 0
+ALIVE = 1
+
 def update_each_unit(cell, neighbors):
     neighbors = np.sum(neighbors) - cell
     
-    if cell == alive:
+    if cell == ALIVE:
         # Underpopulation
         if neighbors < 2: 
-            return dead
+            return DEAD
         
         # Next Generation
         if neighbors in [2, 3]: 
-            return alive
+            return ALIVE
         
         # Overpopulation
         if neighbors > 3: 
-            return dead
+            return DEAD
     else:
         # Reproduction
         if neighbors == 3: 
-            return alive
+            return ALIVE
     return cell
+
 def create_next_grid(grid):
     # Creating a padded grid to handle edge cells
     bigger_grid = np.pad(grid, pad_width=1)
@@ -45,9 +47,9 @@ def create_next_grid(grid):
     return other_generated_grid
 
 initial_grid = np.array([
-    [alive, dead, alive],
-    [dead, dead, alive],
-    [dead, dead, dead]
+    [ALIVE, DEAD, ALIVE],
+    [DEAD, DEAD, ALIVE],
+    [DEAD, DEAD, DEAD]
     ])
 
 current_grid = initial_grid.copy()
