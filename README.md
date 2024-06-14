@@ -4,7 +4,7 @@ This is a simple version of the Game of Life.
 
 ![animation_result](./src/img/animation_result.gif)
 
-### What Is The Game Of Life?
+## What Is The Game Of Life?
 
 It is an application of the classic cellular automaton, played on an infinite two-dimensional rectangular grid of cells. See the [what_is_it](./src/what_is_it.ipynb) file for better comprehension.
 
