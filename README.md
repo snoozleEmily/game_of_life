@@ -16,10 +16,6 @@ This project was created using Jupyter Notebooks for educational purposes. The g
 
 Contributions are welcome! If you find any issues, have suggestions for improvements, or simply want to experiment with the code, please feel free to open an issue or submit a pull request.
 
-## Author
-
-snoozleEmily
-
 ## License
 
 This project is licensed under the MIT License - see the [License](./LICENSE) file for details.
